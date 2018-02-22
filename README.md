@@ -1,7 +1,7 @@
 # Example Codebase
 
 This code can be viewed here: 
-[Site](https://sleepy-hamlet-96224.herokuapp.com/) article - check it out.
+[Site](https://sleepy-hamlet-96224.herokuapp.com/) 
 
 ## What is this?
 
