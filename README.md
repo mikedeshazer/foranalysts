@@ -1,28 +1,17 @@
-# php-getting-started
+# Example Codebase
 
-A barebones PHP app that makes use of the [Silex](http://silex.sensiolabs.org/) web framework, which can easily be deployed to Heroku.
+This code can be viewed here: 
+[Site](https://sleepy-hamlet-96224.herokuapp.com/) article - check it out.
 
-This application supports the [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php) article - check it out.
+## What is this?
 
-## Deploying
+All code can be found in the "web" folder.
 
-Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+This is super simple and meant to demonstrate how the algos you are writing will be used by analyst teams.
 
-```sh
-$ git clone git@github.com:heroku/php-getting-started.git # or clone your own fork
-$ cd php-getting-started
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
+Basically, if you're doing sentiment analysis, fork this repo, deploy to heroku, and get you other endpoint to integrate with this so it does the task you have been tasked with.
 
-or
+Obviously, your algo might be java, php, ruby, python... anything. So you are deploying that as a seperate heroku or AWS app. Then, you are using your clone of this app to call your endpoint, run the algo, and spit the results onto your cloned version.
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+This example is barebones and demonstrates how the data should be rendered. Please contact your manager to figure out how/what you're doing/integrating.
 
-## Documentation
-
-For more information about using PHP on Heroku, see these Dev Center articles:
-
-- [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php)
-- [PHP on Heroku](https://devcenter.heroku.com/categories/php)
